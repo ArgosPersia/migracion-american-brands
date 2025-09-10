@@ -1,23 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css'; 
+import './header.css';
 
 const Header = () => {
     return (
-        <header>
-            <nav>
-                
+        <header >
+            <nav className="header-nav">
                 <div className="logo">
                     <Link to="/">AMERICAN BRANDS</Link>
                 </div>
 
-                
                 <div className="search-bar">
                     <input type="text" placeholder="Buscar..." />
                     <i className="fas fa-search"></i>
                 </div>
 
-                
                 <div className="icons">
                     <div className="user-menu">
                         <i className="fas fa-user"></i>
@@ -26,6 +23,7 @@ const Header = () => {
                             <Link to="/registro">Registrarse</Link>
                         </div>
                     </div>
+
                     <div className="shopping-bag" id="carrito-icon">
                         <i className="fas fa-shopping-bag"></i>
                         <span className="carrito-count">0</span>
@@ -33,7 +31,6 @@ const Header = () => {
                 </div>
             </nav>
 
-            
             <div className="sub-nav">
                 <div className="menu-item has-dropdown">
                     <Link to="/dama">DAMA</Link>
