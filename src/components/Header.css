@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Barra principal */
+
 .header-nav {
     display: grid;
     grid-template-columns: 1fr auto 1fr;

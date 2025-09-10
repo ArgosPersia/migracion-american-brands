@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../components/Header.jsx";
 
-// Importar páginas
 import Home from "../pages/Home.jsx";
 import Dama from "../pages/Dama.jsx";
 import Caballero from "../pages/Caballero.jsx";
@@ -13,7 +12,7 @@ import Basico from "../pages/Basico.jsx";
 import Login from "../pages/Login.jsx";
 import Register from "../pages/Register.jsx";
 
-export default function RoutesApp() {
+export default function routesApp() {
     return (
         <Router>
             <Header />
