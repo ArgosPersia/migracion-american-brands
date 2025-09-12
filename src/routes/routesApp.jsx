@@ -11,7 +11,6 @@ import Ofertas from "../pages/Ofertas.jsx";
 import Basico from "../pages/Basico.jsx";
 import Login from "../pages/Login.jsx";
 import Register from "../pages/Register.jsx";
-
 export default function routesApp() {
     return (
         <Router>
@@ -25,7 +24,7 @@ export default function routesApp() {
                 <Route path="/ofertas" element={<Ofertas />} />
                 <Route path="/basico" element={<Basico />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
+                <Route path="/registro" element={<Register />} />
             </Routes>
         </Router>
     );
