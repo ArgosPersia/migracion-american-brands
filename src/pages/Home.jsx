@@ -1,9 +1,10 @@
-import React from 'react';
-
+import CarruselAutomatico from "../components/CarruselAutomatico";
+import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div>
-      <h1>Página de inicio</h1>
+      <CarruselAutomatico />
+      {/* Aquí luego metemos el carrusel manual y el de nuevos fits */}
     </div>
   );
 };

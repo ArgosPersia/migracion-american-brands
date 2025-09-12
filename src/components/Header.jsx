@@ -77,9 +77,16 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <Link to="/ofertas">OFERTAS RELÁMPAGO</Link>
-                <Link to="/basico">BÁSICO</Link>
-                <Link to="/nuevo">NUEVO</Link>
+                {/* 👇 Estos ahora también son menu-item, aunque sin dropdown */}
+                <div className="menu-item">
+                    <Link to="/ofertas">OFERTAS RELÁMPAGO</Link>
+                </div>
+                <div className="menu-item">
+                    <Link to="/basico">BÁSICO</Link>
+                </div>
+                <div className="menu-item">
+                    <Link to="/nuevo">NUEVO</Link>
+                </div>
             </div>
         </header>
     );

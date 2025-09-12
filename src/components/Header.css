@@ -24,7 +24,7 @@ header {
 
 /* Contenedor centrado con max-width */
 .header-nav {
-    max-width: 1200px;  /* Puedes ajustar este ancho */
+    max-width: 1340px;  /* Puedes ajustar este ancho */
     width: 100%;
     margin: 0 auto;     /* Centrar horizontalmente */
     display: flex;
@@ -166,6 +166,7 @@ a {
     gap: 40px;
     padding: 12px 0;
     flex-wrap: wrap;
+    
 }
 
 .sub-nav > a, 
@@ -174,7 +175,7 @@ a {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    padding: 8px 10px;
+    padding: 9px 10px;
     position: relative;
     transition: color 0.3s ease;
 }
