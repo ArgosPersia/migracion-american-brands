@@ -8,4 +8,4 @@ const Marca = () => {
     );
 };
 
-export default Marca; // ✅ Muy importante
+export default Marca; 

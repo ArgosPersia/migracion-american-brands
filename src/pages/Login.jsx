@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import { alertaGeneral } from "../utils/alertas.js";
 import '../styles/Login.css';
 
 const Login = () => {

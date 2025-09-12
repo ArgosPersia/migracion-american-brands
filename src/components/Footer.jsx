@@ -1,14 +1,19 @@
 import React from "react";
 import "../styles/Footer.css";
 
+// Importe de imágenes
+import marca1 from "../assets/marca1.jpg";
+import marca2 from "../assets/marca2.png";
+import marca3 from "../assets/marca3.jpg";
+
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-marcas">
-                <img src="/img/marca1.png" alt="Marca 1" />
-                <img src="/img/marca2.png" alt="Marca 2" />
+                <img src={marca1} alt="Marca 1" />
+                <img src={marca2} alt="Marca 2" />
                 <span>BrandX</span>
-                <img src="/img/marca3.png" alt="Marca 3" />
+                <img src={marca3} alt="Marca 3" />
             </div>
 
             <div className="footer-info">
@@ -53,4 +58,4 @@ const Footer = () => {
     );
 };
 
-export default Footer; 
+export default Footer;

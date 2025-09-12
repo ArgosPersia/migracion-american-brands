@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "../components/Header.jsx";
+
+
 
 import Home from "../pages/Home.jsx";
 import Dama from "../pages/Dama.jsx";
@@ -14,7 +15,7 @@ import Register from "../pages/Register.jsx";
 export default function routesApp() {
     return (
         <Router>
-            <Header />
+            
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/dama" element={<Dama />} />
@@ -26,6 +27,7 @@ export default function routesApp() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/registro" element={<Register />} />
             </Routes>
+           
         </Router>
     );
 }

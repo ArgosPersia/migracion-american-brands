@@ -67,3 +67,32 @@
 .submit:hover {
     background: linear-gradient(90deg, #5b5b5c 60%, #3b3b3b 100%);
 }
+
+.error-message {
+    color: #ff4747; /* Color de texto rojo para errores */
+    background-color: #ffe6e6; /* Fondo suave de error */
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ffcccc; /* Borde sutil */
+    width: 100%;
+    margin-bottom: 1rem; /* Espaciado para separar de los campos del formulario */
+    font-size: 0.9rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Para mejorar la visibilidad de los mensajes de éxito */
+.success-message {
+    color: #4CAF50; /* Verde para éxito */
+    background-color: #e7f7e7;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #b5e5b5;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
